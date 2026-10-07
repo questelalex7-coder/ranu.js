@@ -119,30 +119,7 @@ npx ranu build
 # Launch the production server
 npx ranu start
 ```
-### Dry Run Mode
 
-To preview exactly what templates and files will be generated without actually saving changes to your computer, use the `--dry-run` flag:
-
-```bash
-npx ranu dev --dry-run
-```
-
-**Key Behaviors:**
-* **No Disk Writes:** The application safely displays the proposed directory tree structure and configuration files in the terminal without modifying your storage drive.
-* **Skips Git Setup:** The standard automated `git init` step is completely bypassed.
-
-
-To preview exactly what templates and files will be generated without actually saving changes to your computer, use the `--dry-run` flag:
-
-```bash
-npx ranu dev --dry-run
-```
-
-**Key Behaviors:**
-* **No Disk Writes:** The application safely displays the proposed directory tree structure and configuration files in the terminal without modifying your storage drive.
-* **Skips Git Setup:** The standard automated `git init` step is completely bypassed.
-
----
 
 ## Public API & Subpath Exports
 
